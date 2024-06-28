@@ -11,7 +11,7 @@ def add(my_garage):
             'problem': problem_data['problem'],
             'price': problem_data['price']
         }
-        if my_garage is None:  # Ensure my_garage is initialized as a list if it's None
+        if my_garage is None:  
             my_garage = []
         my_garage.append(new_car)
         print('Car Added')
