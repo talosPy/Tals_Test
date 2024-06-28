@@ -3,7 +3,7 @@ from Storage.load_save import read, save
 from Problems.problems_menu import problems
 
 def menu():
-    my_garage = read()  # Load existing data from garage.json
+    my_garage = read()  
     while True:
         print('1 - Add')
         print('2 - Delete')
