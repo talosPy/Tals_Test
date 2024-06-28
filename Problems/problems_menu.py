@@ -34,4 +34,4 @@ def problems():
         print("ENDED PROGRAM")
     else:
         print("Invalid choice, please choose a valid option.")
-        return problems()  # Recursive call for valid input
+        return problems()  
